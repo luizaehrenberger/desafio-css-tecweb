@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,29 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+.appbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: left;
+
+  padding: 0 16px;
+
+  height: 64px;
+
+  background-color: #e0af26;
+  color: #000000;
+}
+
+.subtitle {
+  font-size: 2 rem;
+  font-weight: 400;
+  line-height: 4;
+  letter-spacing: 0.00938em;
+}
