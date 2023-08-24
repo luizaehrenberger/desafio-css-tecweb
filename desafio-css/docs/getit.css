@@ -28,8 +28,8 @@ body {
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
-/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+ /*Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
+ .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,23 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+/* centralizar imagem logo*/
+
+/*logo centralizado na parte de cima da tela*/
+
+.appbar{
+  display: flex;
+  justify-content: auto ;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo{
+  
+  width: 100px;
+  height: 100px;
+}
+
+
