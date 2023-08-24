@@ -103,3 +103,40 @@ body {
   line-height: 4;
   letter-spacing: 0.00938em;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  padding-top: 5%;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  border: #000000 1px solid;
+  padding: 15px;
+  margin-top: 3%;
+  width: 40%;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.form-card-title {
+  border-color: #fff;
+  font-size: 1.0rem;
+  border: 0px;
+}
+
+.autoresize {
+  border-color: #fff;
+  border: 0px;
+  margin-top: 3%;
+}
