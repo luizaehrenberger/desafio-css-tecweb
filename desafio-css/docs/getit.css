@@ -93,7 +93,7 @@ body {
 
   height: 64px;
 
-  background-color: #e0af26;
+  background-color: #f7d736;
   color: #000000;
 }
 
@@ -110,7 +110,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5%;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .form-card {
@@ -118,7 +118,7 @@ body {
   flex-direction: column;
   border: #000000 1px solid;
   padding: 15px;
-  margin-top: 3%;
+  margin-top: 4%;
   width: 40%;
 
   overflow: hidden;
@@ -140,3 +140,88 @@ body {
   border: 0px;
   margin-top: 3%;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: #000000 1px solid;
+  padding: 15px;
+  margin-top: 3%;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  width: 15%;
+}
+.card-title {
+  border-color: #fff;
+  font-size: 1.0rem;
+  border: 0px;
+  font-family: 'Permanent Marker', cursive;
+}
+.card-content{
+  font-size: 0.7rem;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 3%;
+  color: #4c4c4c;
+  text-align: center;
+}
+.card-color-1 {
+  background-color: #ead3a7;
+}
+.card-color-2 {
+  background-color: #9de0f5;
+}
+.card-color-3 {
+  background-color: #ef89ba;
+}
+.card-color-4 {
+  background-color: #fae890;
+}
+.card-color-5 {
+  background-color: #abe9c1;
+}
+.card-rotation-1 {
+  transform: rotate(1deg);
+}
+.card-rotation-2 {
+  transform: rotate(-1deg);
+} 
+.card-rotation-3 {
+  transform: rotate(2deg);
+}
+.card-rotation-4 {
+  transform: rotate(-2deg);
+}
+.card-rotation-5 {
+  transform: rotate(3deg);
+}
+.card-rotation-6 {
+  transform: rotate(-3deg);
+}
+.card-rotation-7 {
+  transform: rotate(4deg);
+}
+.card-rotation-8 {
+  transform: rotate(-4deg);
+}
+.card-rotation-9 {
+  transform: rotate(5deg);
+}
+.card-rotation-10 {
+  transform: rotate(-5deg);
+}
+.card-rotation-11 {
+  transform: rotate(6deg);
+}
+
